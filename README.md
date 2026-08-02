@@ -1,4 +1,6 @@
-# Marcpaterno Tap
+# marcpaterno Tap
+
+These are formulae I maintain for personal use.
 
 ## How do I install these formulae?
 
