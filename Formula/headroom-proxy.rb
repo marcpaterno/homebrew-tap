@@ -50,6 +50,7 @@ class HeadroomProxy < Formula
     run [opt_bin/"headroom-proxy", "--host", "127.0.0.1", "--port", "8787"]
     keep_alive({ successful_exit: false })
     environment_variables(
+      PATH:                  "#{Dir.home}/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
       HEADROOM_MODE:         "token",
       HEADROOM_DEFAULT_MODE: "optimize",
       HEADROOM_CODE_AWARE:   "true",
